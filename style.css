@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: '맑은 고딕', sans-serif;
+}
+
+.header {
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.header-text {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 1px #5eaaac;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: #ddd;
+    padding: 8px 0;
+}
+
+.menu button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 섹션 공통 */
+  section {
+    padding: 40px 20px;
+  }
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #aaa;
+    padding: 16px;
+    background-color: #fafafa;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2, h3, p, li {
+    text-align: left;
+  }
+  
+  .project-table {
+    border-collapse: collapse;
+    width: 150px;
+    margin: 20px 0;
+    border: 2px solid #333;
+  }
+  
+  .project-table td {
+    border: 2px solid #333;
+    padding: 12px;
+    vertical-align: middle;
+  }
+  
+  .project-img {
+    width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-table a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .project-table a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+  }
