@@ -11,7 +11,7 @@
     <ul>
       <li>E-mail : gainn0726@gmail.com</li>
       <li>전화번호 : 000-0000-0000</li>
-      <li>깃허브 프로필 : https://github.com/[cmzlfp]</li>
+      <li>깃허브 프로필 : https://github.com/cmzlfp</li>
     </ul>
   </body>
 </html>
